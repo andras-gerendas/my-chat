@@ -28,7 +28,7 @@ export class TextInput extends Component<TextInputOptions>
 
         return (
             <div className="text-input">
-            <input type={ this.props.type ?? "text" } value={ this.state.value }
+            <input type={ this.props.type ?? "text" } value={ this.props.value }
             onChange={ e =>
             {
             this.setState( { value: e.target.value } );
