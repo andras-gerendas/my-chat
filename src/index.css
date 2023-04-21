@@ -110,9 +110,11 @@ html, body, div {
   flex: 1;
   }
   }
+  @media (min-width: 650px) {
   .right-pane {
   border: solid #aaa;
   border-width: 0 0 0 1px;
+  }
   }
   .right-pane .conversation-header {
   padding: 6px 8px;
